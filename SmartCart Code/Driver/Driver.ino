@@ -85,14 +85,14 @@ void turnRight() {
   int i;
   for(i = 0; i < 10; i++) {
     roboclaw.ForwardM1(address,TURNSPEEDFORWARD);
-    roboclaw.ForwardM2(address,TURNSPEEDBACKWARD);
+    roboclaw.BackwardM2(address,TURNSPEEDBACKWARD);
   }
 }
 
 void turnLeft() {
   int i;
   for(i = 0; i < 10; i++) {
-    roboclaw.ForwardM1(address,TURNSPEEDBACKWARD);
+    roboclaw.BackwardM1(address,TURNSPEEDBACKWARD);
     roboclaw.ForwardM2(address,TURNSPEEDFORWARD);
   }
 }
@@ -111,6 +111,3 @@ int decideTurn() {
   else
     return 2;
 }
-
-
-
