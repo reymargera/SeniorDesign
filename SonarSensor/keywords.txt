@@ -1,0 +1,31 @@
+#######################################
+# Syntax Coloring Map For Test
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SonarSensor	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+readDistance	KEYWORD2
+readSensor1		KEYWORD2
+readSensor2		KEYWORD2
+readSensor3		KEYWORD2
+readAll			KEYWORD2
+readAverage		KEYWORD2
+triangulate		KEYWORD2
+printDistance	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
